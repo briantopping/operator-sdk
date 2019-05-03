@@ -1,0 +1,10 @@
+apiVersion: freeipa-operator.app.coglative.com/v1alpha1
+kind: FreeIPAService
+metadata:
+  name: example-freeipaservice
+spec:
+  # Add fields here
+  size: 3
+  name: example
+  namespace: example-freeipa
+  image: freeipa/freeipa-server:centos-7
